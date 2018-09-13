@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The diff returns only the differences between the files, so it's easy to spot
+	a bug or misspelled word.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Seeing changes can help you understand where bugs may lie, or what updates
+	have been made to a file and how that might change the program. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of manual save are control over versioning, you can specify exactl what
+	you want saved and when you want to save it. It allows you to reserve meaningful
+	commits based on logical changes. 
+	The cons could be accidently not
+	saving something and losing a lot of work. The pros of auto saving is ensuring
+	the most recent changes are avaiable to you. But you lose the control over versioning
+	and you might save errors in the code.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Saving multiple files in one commit may save time, but also allow grouping of files in 
+	a program. Saving files separately may ensure version integrity and prevent accidental
+	commits.
+
+How can you use the commands git log and git diff to view the history of files?
+
+   Git log will return commits on a specified path, so you can view all the commits 
+	of a single file. Git diff will show you the changes between different commits 
+	of that same file.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You know that you can roll back to the previous, functional version if your 
+	new code does break something. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Version control of projects, collaborating with other developers.

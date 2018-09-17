@@ -10,8 +10,11 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
-
+    It allows you to make meaningful commits based on logical changes to the
+    code, and those changes you make locally. If you had branches auto
+    updating, it could create a lot of meaningless commits or possibly 
+    interfere with a local commit you are working on.
+    
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
